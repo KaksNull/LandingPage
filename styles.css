@@ -64,7 +64,7 @@ button {
     height: 25px;
     color: #F9FAF8;
     font-weight: 700;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 
@@ -132,10 +132,44 @@ h2 {
 .quote {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 410px;
+    background-color: #E5E7EB;
+}
+
+h3 {
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+
+}
+
+.box {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box p {
+    align-self: flex-end;
+    font-weight: 800;
 }
 
 .bottom {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 410px;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 800px;
     justify-content: center;
     align-items: center;
 }
