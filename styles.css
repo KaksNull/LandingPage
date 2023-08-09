@@ -4,13 +4,20 @@ body {
     margin: 0;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 120px;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 20px 200px;
 }
 
 .logo {
@@ -18,11 +25,61 @@ body {
     font-size: 20px;
 }
 
-.hero {
-    display: flex;
 
+
+.introduction {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 90px 200px;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 0;
+    height: 230px;
+    width: 450px;
+    padding: 0;
 
 }
+
+.description p {
+    font-size: 18px;
+    margin: 0;
+}
+
+button {
+    background-color: #3882F6;
+    width: 100px;
+    height: 25px;
+    color: #F9FAF8;
+    font-weight: 700;
+    border-radius: 10%;
+}
+
+
+
+.image {
+    margin-left: auto;
+    height: 200px;
+    width: 450px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 ul {
     display: flex;
