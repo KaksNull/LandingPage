@@ -1,16 +1,36 @@
 body {
     display: flex;
     flex-direction: column;
-}
-
-.top-header {
-    display: flex;
-    justify-content: space-between;
+    margin: 0;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+
 
 .information {
     display: flex;
